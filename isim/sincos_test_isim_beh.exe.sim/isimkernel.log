@@ -1,0 +1,32 @@
+Command line:
+   sincos_test_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  5882
+
+Sun Feb 08 21:03:10 2015
+
+
+ Elaboration Time: 0.0468 sec
+
+ Current Memory Usage: 663.765 Meg
+
+ Total Signals          : 29
+ Total Nets             : 73
+ Total Signal Drivers   : 11
+ Total Blocks           : 11
+ Total Primitive Blocks : 9
+ Total Processes        : 11
+ Total Traceable Variables  : 18
+ Total Scalar Nets and Variables : 703
+Total Line Count : 39
+Total Line Count : 39
+Total Line Count : 39
+Total Line Count : 39
+
+ Total Simulation Time: 0.187201 sec
+
+ Current Memory Usage: 663.765 Meg
+
+Sun Feb 08 21:06:02 2015
+

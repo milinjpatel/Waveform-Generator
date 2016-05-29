@@ -1,0 +1,108 @@
+V3 51
+FL "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/Controller.vhd" 2015/02/05.16:57:49 P.20131013
+EN work/Controller 1423184297 \
+      FL "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/Controller.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 PB ieee/NUMERIC_STD 1381692181
+AR work/Controller/Behavioral 1423184298 \
+      FL "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/Controller.vhd" \
+      EN work/Controller 1423184297
+FL "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/counter13bit.vhd" 2015/01/29.17:46:41 P.20131013
+EN work/counter13bit 1423184279 \
+      FL "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/counter13bit.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 PB ieee/NUMERIC_STD 1381692181
+AR work/counter13bit/Behavioral 1423184280 \
+      FL "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/counter13bit.vhd" \
+      EN work/counter13bit 1423184279
+FL "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/counter6bit.vhd" 2015/01/29.15:05:02 P.20131013
+EN work/counter6bit 1423184281 \
+      FL "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/counter6bit.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 PB ieee/NUMERIC_STD 1381692181
+AR work/counter6bit/Behavioral 1423184282 \
+      FL "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/counter6bit.vhd" \
+      EN work/counter6bit 1423184281
+FL "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/Counter_Circuit.vhd" 2015/01/28.18:52:15 P.20131013
+EN work/counter_circuit 1423184293 \
+      FL "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/Counter_Circuit.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 PB ieee/NUMERIC_STD 1381692181
+AR work/counter_circuit/Behavioral 1423184294 \
+      FL "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/Counter_Circuit.vhd" \
+      EN work/counter_circuit 1423184293 CP tlu_table CP counter_down \
+      CP counter_down10 CP counter_swt CP counter_flag
+FL "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/counter_down.vhd" 2015/01/28.18:52:59 P.20131013
+EN work/counter_down 1423184285 \
+      FL "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/counter_down.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 PB ieee/NUMERIC_STD 1381692181
+AR work/counter_down/Behavioral 1423184286 \
+      FL "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/counter_down.vhd" \
+      EN work/counter_down 1423184285
+FL "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/counter_down10.vhd" 2015/01/28.18:53:00 P.20131013
+EN work/counter_down10 1423184287 \
+      FL "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/counter_down10.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 PB ieee/NUMERIC_STD 1381692181
+AR work/counter_down10/Behavioral 1423184288 \
+      FL "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/counter_down10.vhd" \
+      EN work/counter_down10 1423184287
+FL "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/counter_flag.vhd" 2015/01/28.18:48:20 P.20131013
+EN work/counter_flag 1423184291 \
+      FL "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/counter_flag.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 PB ieee/NUMERIC_STD 1381692181
+AR work/counter_flag/Behavioral 1423184292 \
+      FL "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/counter_flag.vhd" \
+      EN work/counter_flag 1423184291
+FL "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/counter_swt.vhd" 2015/01/28.18:49:13 P.20131013
+EN work/counter_swt 1423184289 \
+      FL "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/counter_swt.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 PB ieee/NUMERIC_STD 1381692181
+AR work/counter_swt/Behavioral 1423184290 \
+      FL "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/counter_swt.vhd" \
+      EN work/counter_swt 1423184289
+FL "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/ROM_address.vhd" 2015/01/29.18:22:57 P.20131013
+EN work/ROM_address 1423184283 \
+      FL "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/ROM_address.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 PB ieee/NUMERIC_STD 1381692181
+AR work/ROM_address/Behavioral 1423184284 \
+      FL "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/ROM_address.vhd" \
+      EN work/ROM_address 1423184283
+FL "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/sin_cos_generator.vhd" 2015/01/28.23:02:40 P.20131013
+EN work/sin_cos_generator 1423184295 \
+      FL "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/sin_cos_generator.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 PB ieee/NUMERIC_STD 1381692181
+AR work/sin_cos_generator/Behavioral 1423184296 \
+      FL "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/sin_cos_generator.vhd" \
+      EN work/sin_cos_generator 1423184295 CP tlu_table CP counter13bit \
+      CP counter6bit CP ROM_address
+FL "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/SPI_Interface.vhd" 2015/02/05.16:45:46 P.20131013
+EN work/SPI_Interface 1423184299 \
+      FL "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/SPI_Interface.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 PB ieee/NUMERIC_STD 1381692181
+AR work/SPI_Interface/Behavioral 1423184300 \
+      FL "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/SPI_Interface.vhd" \
+      EN work/SPI_Interface 1423184299
+FL "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/System.vhd" 2015/01/28.22:50:57 P.20131013
+EN work/system 1423184301 \
+      FL "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/System.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 PB ieee/NUMERIC_STD 1381692181
+AR work/system/Behavioral 1423184302 \
+      FL "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/System.vhd" \
+      EN work/system 1423184301 CP counter_circuit CP sin_cos_generator \
+      CP Controller CP SPI_Interface
+FL "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/tlu_table.vhd" 2015/01/28.18:51:08 P.20131013
+EN work/tlu_table 1423184277 \
+      FL "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/tlu_table.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 PB ieee/NUMERIC_STD 1381692181
+AR work/tlu_table/Behavioral 1423184278 \
+      FL "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/tlu_table.vhd" \
+      EN work/tlu_table 1423184277

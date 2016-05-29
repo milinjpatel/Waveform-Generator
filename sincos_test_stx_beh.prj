@@ -1,0 +1,6 @@
+vhdl isim_temp "tlu_table.vhd"
+vhdl isim_temp "ROM_address.vhd"
+vhdl isim_temp "counter6bit.vhd"
+vhdl isim_temp "counter13bit.vhd"
+vhdl isim_temp "sin_cos_generator.vhd"
+vhdl isim_temp "sincos_test.vhd"

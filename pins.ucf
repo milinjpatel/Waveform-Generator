@@ -1,0 +1,21 @@
+# PlanAhead Generated physical constraints 
+
+NET "f[3]" LOC = N17;
+NET "f[2]" LOC = H18;
+NET "f[1]" LOC = L14;
+NET "f[0]" LOC = L13;
+NET "spi_mosi" LOC = T4;
+NET "dac_cs" LOC = N8;
+NET "spi_sck" LOC = U16;
+NET "dac_clr" LOC = P8;
+NET "spi_miso" LOC = N10;
+NET "spi_ss_b" LOC = U3;
+NET "amp_cs" LOC = N7;
+NET "sf_ce0" LOC = D16;
+NET "fpga_init_b" LOC = T3;
+NET "ad_conv" LOC = P11;
+NET "reset" LOC = K17;
+NET "reset" PULLDOWN;
+NET "clk" LOC = C9;
+
+# PlanAhead Generated physical constraints 

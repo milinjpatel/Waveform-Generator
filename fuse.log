@@ -1,0 +1,46 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/system_test_isim_beh.exe -prj C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/system_test_beh.prj work.system_test 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/tlu_table.vhd" into library work
+Parsing VHDL file "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/ROM_address.vhd" into library work
+Parsing VHDL file "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/counter_swt.vhd" into library work
+Parsing VHDL file "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/counter_flag.vhd" into library work
+Parsing VHDL file "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/counter_down10.vhd" into library work
+Parsing VHDL file "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/counter_down.vhd" into library work
+Parsing VHDL file "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/counter6bit.vhd" into library work
+Parsing VHDL file "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/counter13bit.vhd" into library work
+Parsing VHDL file "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/SPI_Interface.vhd" into library work
+Parsing VHDL file "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/sin_cos_generator.vhd" into library work
+Parsing VHDL file "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/Counter_Circuit.vhd" into library work
+Parsing VHDL file "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/Controller.vhd" into library work
+Parsing VHDL file "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/System.vhd" into library work
+Parsing VHDL file "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/system_test.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package numeric_std
+Compiling architecture behavioral of entity tlu_table [tlu_table_default]
+Compiling architecture behavioral of entity counter_down [counter_down_default]
+Compiling architecture behavioral of entity counter_down10 [counter_down10_default]
+Compiling architecture behavioral of entity counter_swt [counter_swt_default]
+Compiling architecture behavioral of entity counter_flag [counter_flag_default]
+Compiling architecture behavioral of entity counter_circuit [counter_circuit_default]
+Compiling architecture behavioral of entity counter13bit [counter13bit_default]
+Compiling architecture behavioral of entity counter6bit [counter6bit_default]
+Compiling architecture behavioral of entity ROM_address [rom_address_default]
+Compiling architecture behavioral of entity sin_cos_generator [sin_cos_generator_default]
+Compiling architecture behavioral of entity Controller [controller_default]
+Compiling architecture behavioral of entity SPI_Interface [spi_interface_default]
+Compiling architecture behavioral of entity system [system_default]
+Compiling architecture behavior of entity system_test
+Time Resolution for simulation is 1ps.
+Waiting for 3 sub-compilation(s) to finish...
+Compiled 32 VHDL Units
+Built simulation executable C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/system_test_isim_beh.exe
+Fuse Memory Usage: 37876 KB
+Fuse CPU Usage: 748 ms

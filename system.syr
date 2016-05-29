@@ -1,0 +1,681 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Reading design: system.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "system.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "system"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-fg320
+
+---- Source Options
+Top Module Name                    : system
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/tlu_table.vhd" in Library work.
+Architecture behavioral of Entity tlu_table is up to date.
+Compiling vhdl file "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/counter13bit.vhd" in Library work.
+Architecture behavioral of Entity counter13bit is up to date.
+Compiling vhdl file "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/counter6bit.vhd" in Library work.
+Architecture behavioral of Entity counter6bit is up to date.
+Compiling vhdl file "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/ROM_address.vhd" in Library work.
+Architecture behavioral of Entity rom_address is up to date.
+Compiling vhdl file "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/counter_down.vhd" in Library work.
+Architecture behavioral of Entity counter_down is up to date.
+Compiling vhdl file "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/counter_down10.vhd" in Library work.
+Architecture behavioral of Entity counter_down10 is up to date.
+Compiling vhdl file "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/counter_swt.vhd" in Library work.
+Architecture behavioral of Entity counter_swt is up to date.
+Compiling vhdl file "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/counter_flag.vhd" in Library work.
+Architecture behavioral of Entity counter_flag is up to date.
+Compiling vhdl file "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/Counter_Circuit.vhd" in Library work.
+Architecture behavioral of Entity counter_circuit is up to date.
+Compiling vhdl file "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/sin_cos_generator.vhd" in Library work.
+Architecture behavioral of Entity sin_cos_generator is up to date.
+Compiling vhdl file "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/Controller.vhd" in Library work.
+Entity <controller> compiled.
+Entity <controller> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/SPI_Interface.vhd" in Library work.
+Architecture behavioral of Entity spi_interface is up to date.
+Compiling vhdl file "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/System.vhd" in Library work.
+Architecture behavioral of Entity system is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <system> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <counter_circuit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <sin_cos_generator> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Controller> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <SPI_Interface> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <tlu_table> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <counter_down> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <counter_down10> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <counter_swt> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <counter_flag> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <counter13bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <counter6bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ROM_address> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <system> in library <work> (Architecture <behavioral>).
+Entity <system> analyzed. Unit <system> generated.
+
+Analyzing Entity <counter_circuit> in library <work> (Architecture <behavioral>).
+WARNING:Xst:1541 - "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/Counter_Circuit.vhd" line 42: Different binding for component: <counter_down10>. Port <tlu_in> does not match.
+Entity <counter_circuit> analyzed. Unit <counter_circuit> generated.
+
+Analyzing Entity <tlu_table> in library <work> (Architecture <behavioral>).
+INFO:Xst:1561 - "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/tlu_table.vhd" line 31: Mux is complete : default of case is discarded
+Entity <tlu_table> analyzed. Unit <tlu_table> generated.
+
+Analyzing Entity <counter_down> in library <work> (Architecture <behavioral>).
+Entity <counter_down> analyzed. Unit <counter_down> generated.
+
+Analyzing Entity <counter_down10> in library <work> (Architecture <behavioral>).
+Entity <counter_down10> analyzed. Unit <counter_down10> generated.
+
+Analyzing Entity <counter_swt> in library <work> (Architecture <behavioral>).
+Entity <counter_swt> analyzed. Unit <counter_swt> generated.
+
+Analyzing Entity <counter_flag> in library <work> (Architecture <behavioral>).
+Entity <counter_flag> analyzed. Unit <counter_flag> generated.
+
+Analyzing Entity <sin_cos_generator> in library <work> (Architecture <behavioral>).
+Entity <sin_cos_generator> analyzed. Unit <sin_cos_generator> generated.
+
+Analyzing Entity <counter13bit> in library <work> (Architecture <behavioral>).
+Entity <counter13bit> analyzed. Unit <counter13bit> generated.
+
+Analyzing Entity <counter6bit> in library <work> (Architecture <behavioral>).
+Entity <counter6bit> analyzed. Unit <counter6bit> generated.
+
+Analyzing Entity <ROM_address> in library <work> (Architecture <behavioral>).
+Entity <ROM_address> analyzed. Unit <ROM_address> generated.
+
+Analyzing Entity <Controller> in library <work> (Architecture <behavioral>).
+Entity <Controller> analyzed. Unit <Controller> generated.
+
+Analyzing Entity <SPI_Interface> in library <work> (Architecture <behavioral>).
+Entity <SPI_Interface> analyzed. Unit <SPI_Interface> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <Controller>.
+    Related source file is "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/Controller.vhd".
+WARNING:Xst:1780 - Signal <counter> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+    Found finite state machine <FSM_0> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 5                                              |
+    | Transitions        | 10                                             |
+    | Inputs             | 5                                              |
+    | Outputs            | 6                                              |
+    | Clock              | clk                       (rising_edge)        |
+    | Reset              | reset                     (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | s0                                             |
+    | Power Up State     | s0                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 12-bit register for signal <datain_dac>.
+    Found 4-bit register for signal <address_dac>.
+    Found 1-bit register for signal <go_dac>.
+    Found 1-bit register for signal <req1>.
+    Found 1-bit register for signal <req2>.
+    Found 1-bit register for signal <req3>.
+    Found 1-bit register for signal <req4>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred  21 D-type flip-flop(s).
+Unit <Controller> synthesized.
+
+
+Synthesizing Unit <SPI_Interface>.
+    Related source file is "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/SPI_Interface.vhd".
+WARNING:Xst:647 - Input <SPI_MISO> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found finite state machine <FSM_1> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 6                                              |
+    | Inputs             | 3                                              |
+    | Outputs            | 3                                              |
+    | Clock              | clk                       (rising_edge)        |
+    | Reset              | reset                     (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | s0                                             |
+    | Power Up State     | s0                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 1-bit register for signal <dac_cs>.
+    Found 1-bit register for signal <transmitting>.
+    Found 5-bit register for signal <bitcounter>.
+    Found 5-bit subtractor for signal <bitcounter$addsub0000> created at line 32.
+    Found 1-bit register for signal <flag>.
+    Found 32-bit register for signal <R>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred  40 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <SPI_Interface> synthesized.
+
+
+Synthesizing Unit <tlu_table>.
+    Related source file is "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/tlu_table.vhd".
+    Found 16x11-bit ROM for signal <tlu>.
+    Summary:
+	inferred   1 ROM(s).
+Unit <tlu_table> synthesized.
+
+
+Synthesizing Unit <counter_down>.
+    Related source file is "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/counter_down.vhd".
+    Found 11-bit down counter for signal <count>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <counter_down> synthesized.
+
+
+Synthesizing Unit <counter_down10>.
+    Related source file is "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/counter_down10.vhd".
+    Found 10-bit down counter for signal <count>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <counter_down10> synthesized.
+
+
+Synthesizing Unit <counter_swt>.
+    Related source file is "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/counter_swt.vhd".
+    Found 8-bit up counter for signal <count>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <counter_swt> synthesized.
+
+
+Synthesizing Unit <counter_flag>.
+    Related source file is "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/counter_flag.vhd".
+    Found 8-bit updown counter for signal <counter>.
+    Found 1-bit register for signal <up>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <counter_flag> synthesized.
+
+
+Synthesizing Unit <counter13bit>.
+    Related source file is "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/counter13bit.vhd".
+    Found 13-bit down counter for signal <counter>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <counter13bit> synthesized.
+
+
+Synthesizing Unit <counter6bit>.
+    Related source file is "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/counter6bit.vhd".
+    Found 6-bit adder for signal <cos_add>.
+    Found 6-bit up counter for signal <counter>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <counter6bit> synthesized.
+
+
+Synthesizing Unit <ROM_address>.
+    Related source file is "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/ROM_address.vhd".
+    Found 64x12-bit ROM for signal <sample$rom0000> created at line 19.
+    Summary:
+	inferred   1 ROM(s).
+Unit <ROM_address> synthesized.
+
+
+Synthesizing Unit <counter_circuit>.
+    Related source file is "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/Counter_Circuit.vhd".
+Unit <counter_circuit> synthesized.
+
+
+Synthesizing Unit <sin_cos_generator>.
+    Related source file is "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/sin_cos_generator.vhd".
+Unit <sin_cos_generator> synthesized.
+
+
+Synthesizing Unit <system>.
+    Related source file is "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/System.vhd".
+Unit <system> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 4
+ 16x11-bit ROM                                         : 2
+ 64x12-bit ROM                                         : 2
+# Adders/Subtractors                                   : 2
+ 5-bit subtractor                                      : 1
+ 6-bit adder                                           : 1
+# Counters                                             : 6
+ 10-bit down counter                                   : 1
+ 11-bit down counter                                   : 1
+ 13-bit down counter                                   : 1
+ 6-bit up counter                                      : 1
+ 8-bit up counter                                      : 1
+ 8-bit updown counter                                  : 1
+# Registers                                            : 13
+ 1-bit register                                        : 9
+ 12-bit register                                       : 1
+ 32-bit register                                       : 1
+ 4-bit register                                        : 1
+ 5-bit register                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_1> for best encoding.
+Optimizing FSM <S/state/FSM> on signal <state[1:2]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ s0    | 00
+ s1    | 01
+ s2    | 10
+-------------------
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <C/state/FSM> on signal <state[1:3]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ s0    | 000
+ s1    | 001
+ s2    | 011
+ s3    | 010
+ s4    | 110
+-------------------
+INFO:Xst:2261 - The FF/Latch <address_dac_2> in Unit <C> is equivalent to the following FF/Latch, which will be removed : <address_dac_3> 
+WARNING:Xst:1710 - FF/Latch <address_dac_2> (without init value) has a constant value of 0 in block <C>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <R_0> (without init value) has a constant value of 0 in block <S>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <R_1> (without init value) has a constant value of 0 in block <S>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <R_2> (without init value) has a constant value of 0 in block <S>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <R_3> (without init value) has a constant value of 0 in block <S>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2404 -  FFs/Latches <address_dac<3:2>> (without init value) have a constant value of 0 in block <Controller>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 2
+# ROMs                                                 : 4
+ 16x11-bit ROM                                         : 2
+ 64x12-bit ROM                                         : 2
+# Adders/Subtractors                                   : 2
+ 5-bit subtractor                                      : 1
+ 6-bit adder                                           : 1
+# Counters                                             : 6
+ 10-bit down counter                                   : 1
+ 11-bit down counter                                   : 1
+ 13-bit down counter                                   : 1
+ 6-bit up counter                                      : 1
+ 8-bit up counter                                      : 1
+ 8-bit updown counter                                  : 1
+# Registers                                            : 60
+ Flip-Flops                                            : 60
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <R_0> (without init value) has a constant value of 0 in block <SPI_Interface>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <R_1> (without init value) has a constant value of 0 in block <SPI_Interface>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <R_2> (without init value) has a constant value of 0 in block <SPI_Interface>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <R_3> (without init value) has a constant value of 0 in block <SPI_Interface>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2146 - In block <system>, ROM <CC/TLUT/Mrom_tlu> <SCGEN/TT/Mrom_tlu> are equivalent, XST will keep only <CC/TLUT/Mrom_tlu>.
+
+Optimizing unit <system> ...
+
+Optimizing unit <Controller> ...
+
+Optimizing unit <SPI_Interface> ...
+
+Optimizing unit <counter_flag> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block system, actual ratio is 3.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 117
+ Flip-Flops                                            : 117
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : system.ngr
+Top Level Output File Name         : system
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 16
+
+Cell Usage :
+# BELS                             : 497
+#      GND                         : 1
+#      INV                         : 36
+#      LUT1                        : 10
+#      LUT2                        : 17
+#      LUT2_D                      : 1
+#      LUT3                        : 65
+#      LUT3_D                      : 11
+#      LUT3_L                      : 2
+#      LUT4                        : 163
+#      LUT4_D                      : 3
+#      LUT4_L                      : 21
+#      MUXCY                       : 45
+#      MUXF5                       : 49
+#      MUXF6                       : 22
+#      VCC                         : 1
+#      XORCY                       : 50
+# FlipFlops/Latches                : 117
+#      FD                          : 32
+#      FDC                         : 5
+#      FDE                         : 78
+#      FDR                         : 2
+# Clock Buffers                    : 1
+#      BUFG                        : 1
+# IO Buffers                       : 15
+#      IBUF                        : 6
+#      OBUF                        : 9
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-5 
+
+ Number of Slices:                      172  out of   4656     3%  
+ Number of Slice Flip Flops:            117  out of   9312     1%  
+ Number of 4 input LUTs:                329  out of   9312     3%  
+ Number of IOs:                          16
+ Number of bonded IOBs:                  15  out of    232     6%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | IBUF+BUFG              | 117   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+reset                              | IBUF                   | 5     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 5.451ns (Maximum Frequency: 183.436MHz)
+   Minimum input arrival time before clock: 4.063ns
+   Maximum output required time after clock: 5.668ns
+   Maximum combinational path delay: 6.564ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 5.451ns (frequency: 183.436MHz)
+  Total number of paths / destination ports: 2656 / 156
+-------------------------------------------------------------------------
+Delay:               5.451ns (Levels of Logic = 4)
+  Source:            SCGEN/ADD/counter_4 (FF)
+  Destination:       C/datain_dac_8 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: SCGEN/ADD/counter_4 to C/datain_dac_8
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q             33   0.514   1.073  SCGEN/ADD/counter_4 (SCGEN/ADD/counter_4)
+     INV:I->O             17   0.612   0.893  SCGEN/ADD/Madd_cos_add_xor<4>11_INV_0 (SCGEN/cos_add<4>)
+     MUXF5:S->O            1   0.641   0.000  SCGEN/cos/Mrom_sample_rom00004_f5 (SCGEN/cos/Mrom_sample_rom00004_f5)
+     MUXF6:I1->O           1   0.451   0.387  SCGEN/cos/Mrom_sample_rom00004_f6 (SCGEN/cos/Mrom_sample_rom00004_f6)
+     LUT3:I2->O            1   0.612   0.000  C/datain_dac_mux0000<4>36 (C/datain_dac_mux0000<4>)
+     FDE:D                     0.268          C/datain_dac_4
+    ----------------------------------------
+    Total                      5.451ns (3.098ns logic, 2.353ns route)
+                                       (56.8% logic, 43.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 180 / 87
+-------------------------------------------------------------------------
+Offset:              4.063ns (Levels of Logic = 3)
+  Source:            f<3> (PAD)
+  Destination:       CC/D2/count_0 (FF)
+  Destination Clock: clk rising
+
+  Data Path: f<3> to CC/D2/count_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            11   1.106   0.945  f_3_IBUF (f_3_IBUF)
+     LUT4:I0->O            3   0.612   0.520  CC/D1/Mcount_count_eqn_5111 (N10)
+     LUT3:I1->O            1   0.612   0.000  CC/D2/Mcount_count_eqn_91 (CC/D2/Mcount_count_eqn_9)
+     FD:D                      0.268          CC/D2/count_9
+    ----------------------------------------
+    Total                      4.063ns (2.598ns logic, 1.465ns route)
+                                       (63.9% logic, 36.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 3 / 3
+-------------------------------------------------------------------------
+Offset:              5.668ns (Levels of Logic = 2)
+  Source:            S/state_FSM_FFd1 (FF)
+  Destination:       spi_sck (PAD)
+  Source Clock:      clk rising
+
+  Data Path: S/state_FSM_FFd1 to spi_sck
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             15   0.514   1.016  S/state_FSM_FFd1 (S/state_FSM_FFd1)
+     LUT2:I0->O            1   0.612   0.357  S/spi_sck1 (spi_sck_OBUF)
+     OBUF:I->O                 3.169          spi_sck_OBUF (spi_sck)
+    ----------------------------------------
+    Total                      5.668ns (4.295ns logic, 1.373ns route)
+                                       (75.8% logic, 24.2% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Delay:               6.564ns (Levels of Logic = 3)
+  Source:            reset (PAD)
+  Destination:       dac_clr (PAD)
+
+  Data Path: reset to dac_clr
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             7   1.106   0.602  reset_IBUF (reset_IBUF)
+     INV:I->O             42   0.612   1.076  S/dac_clr1_INV_0 (C/reset_inv)
+     OBUF:I->O                 3.169          dac_clr_OBUF (dac_clr)
+    ----------------------------------------
+    Total                      6.564ns (4.887ns logic, 1.677ns route)
+                                       (74.4% logic, 25.6% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 6.43 secs
+ 
+--> 
+
+Total memory usage is 267380 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   13 (   0 filtered)
+Number of infos    :    3 (   0 filtered)
+

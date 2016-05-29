@@ -1,0 +1,23 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Thu Feb 05 16:58:12 2015
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk" LOCATE = SITE "C9" LEVEL 1;
+COMP "f<0>" LOCATE = SITE "L13" LEVEL 1;
+COMP "f<1>" LOCATE = SITE "L14" LEVEL 1;
+COMP "f<2>" LOCATE = SITE "H18" LEVEL 1;
+COMP "f<3>" LOCATE = SITE "N17" LEVEL 1;
+COMP "ad_conv" LOCATE = SITE "P11" LEVEL 1;
+COMP "dac_clr" LOCATE = SITE "P8" LEVEL 1;
+COMP "fpga_init_b" LOCATE = SITE "T3" LEVEL 1;
+COMP "reset" LOCATE = SITE "K17" LEVEL 1;
+COMP "spi_sck" LOCATE = SITE "U16" LEVEL 1;
+COMP "dac_cs" LOCATE = SITE "N8" LEVEL 1;
+COMP "amp_cs" LOCATE = SITE "N7" LEVEL 1;
+COMP "sf_ce0" LOCATE = SITE "D16" LEVEL 1;
+COMP "spi_miso" LOCATE = SITE "N10" LEVEL 1;
+COMP "spi_mosi" LOCATE = SITE "T4" LEVEL 1;
+COMP "spi_ss_b" LOCATE = SITE "U3" LEVEL 1;
+SCHEMATIC END;
+

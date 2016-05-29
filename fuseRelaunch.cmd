@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/system_test_isim_beh.exe" -prj "C:/My Folder/Cal Poly Pomona/Homework/ECE424/lab3/system_test_beh.prj" "work.system_test" 
